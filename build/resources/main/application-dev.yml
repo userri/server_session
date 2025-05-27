@@ -1,0 +1,35 @@
+spring:
+  config:
+    activate:
+      on-profile: "dev"
+  jpa:
+    hibernate:
+      ddl-auto: update
+  data:
+    redis:
+      host: ${REDIS_NAME}
+      port: 6379
+
+logging:
+  level:
+    root: info
+    org.springframework.security: info
+
+server:
+  forward-headers-strategy: framework
+
+management:
+  endpoints:
+    enabled-by-default: false
+    web:
+      base-path: /api/health-check
+  endpoint:
+    health:
+      enabled: true
+
+cors-allowed-origins:
+  https://team-play.netlify.app,
+  http://localhost:8080,
+  http://localhost:3000,
+  http://localhost:5173
+
