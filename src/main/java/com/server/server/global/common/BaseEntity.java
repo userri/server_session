@@ -1,4 +1,4 @@
-package com.server.dndserver.global.common;
+package com.server.server.global.common;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.EntityListeners;

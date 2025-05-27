@@ -1,6 +1,6 @@
-package com.server.dndserver.domain.member.repository;
+package com.server.server.domain.member.repository;
 
-import com.server.dndserver.domain.member.domain.Member;
+import com.server.server.domain.member.domain.Member;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

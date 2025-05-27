@@ -1,7 +1,7 @@
-package com.server.dndserver.domain.member.controller;
+package com.server.server.domain.member.controller;
 
-import com.server.dndserver.domain.member.domain.Member;
-import com.server.dndserver.domain.member.repository.MemberRepository;
+import com.server.server.domain.member.domain.Member;
+import com.server.server.domain.member.repository.MemberRepository;
 import io.swagger.v3.oas.annotations.Operation;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;

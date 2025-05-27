@@ -1,6 +1,6 @@
-package com.server.dndserver.domain.member.domain;
+package com.server.server.domain.member.domain;
 
-import com.server.dndserver.global.common.BaseEntity;
+import com.server.server.global.common.BaseEntity;
 import jakarta.persistence.*;
 import lombok.AccessLevel;
 import lombok.Builder;

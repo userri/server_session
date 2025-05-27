@@ -1,4 +1,4 @@
-package com.server.dndserver.global.config;
+package com.server.server.global.config;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
