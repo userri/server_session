@@ -19,5 +19,5 @@ services:
       - temp
 
 networks:
-  dnd:
+  temp:
     driver: bridge
