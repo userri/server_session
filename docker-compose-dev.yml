@@ -3,8 +3,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: dnd-server-dev
-    image: dnd-server-dev
+    container_name: server-dev
+    image: server-dev
     restart: always
     ports:
       - 8080:8080
